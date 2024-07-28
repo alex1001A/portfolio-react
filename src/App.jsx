@@ -1,9 +1,23 @@
+import "./styles/main.css";
+
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contacts from "./pages/Contacts";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello from React JS!</h1>
-      </header>
+      <Navbar />
+
+      {/* <Contacts /> */}
+
+      <Projects/>
+
+      {/* <Home /> */}
+
+      <Footer />
     </div>
   );
 }
